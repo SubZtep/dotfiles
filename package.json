@@ -1,9 +1,9 @@
 {
-  "name": "@subztep/eslint-config",
+  "name": "eslint-config-daily",
   "version": "1.0.0",
-  "description": "ESLint preferred rules of choice.",
+  "description": "ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
-  "repository": "github:SubZtep/depth",
+  "repository": "github:SubZtep/eslint-config-daily",
   "license": "Unlicense",
   "keywords": [
     "eslint",
