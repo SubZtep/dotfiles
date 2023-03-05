@@ -8,6 +8,7 @@ module.exports = {
       },
       extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
       rules: {
+        "tsdoc/syntax": "warn",
         "no-constant-condition": "warn",
       },
     },
