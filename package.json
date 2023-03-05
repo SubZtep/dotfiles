@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-subztep",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "My ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/eslint-plugin-subztep",
@@ -18,7 +18,10 @@
     "@typescript-eslint/eslint-plugin": ">=5",
     "@typescript-eslint/parser": ">=5",
     "eslint": ">=7",
+    "eslint-config-prettier": ">=8",
+    "eslint-plugin-prettier": ">=4",
     "eslint-plugin-tsdoc": "*",
+    "prettier": ">=2",
     "typescript": ">=4"
   }
 }
