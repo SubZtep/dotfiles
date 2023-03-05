@@ -1,5 +1,5 @@
-export default {
+module.exports = {
   rules: {
-    "no-constant-condition": "warn"
+    "no-constant-condition": "warn",
   },
 }

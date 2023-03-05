@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-subztep",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/eslint-plugin-subztep",
@@ -9,9 +9,11 @@
     "eslint",
     "eslint-config"
   ],
-  "type": "module",
   "main": "index.js",
   "exports": "./index.js",
+  "scripts": {
+    "dry": "pnpm publish --dry-run --no-git-checks"
+  },
   "peerDependencies": {
     "eslint": ">=7"
   }
