@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-subztep",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "My ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/eslint-plugin-subztep",
