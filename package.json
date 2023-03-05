@@ -1,28 +1,17 @@
 {
-  "name": "eslint-config-daily",
+  "name": "eslint-plugin-subztep",
   "version": "1.0.0",
   "description": "ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
-  "repository": "github:SubZtep/eslint-config-daily",
-  "license": "Unlicense",
+  "repository": "github:SubZtep/eslint-plugin-subztep",
+  "license": "ISC",
   "keywords": [
     "eslint",
     "eslint-config"
   ],
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@typescript-eslint/parser": "^5.45.0",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-typescript": "^3.0.0",
-    "eslint-import-resolver-typescript": "^3.5.2",
-    "eslint-plugin-compat": "^4.0.2",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-testing-library": "^5.9.1",
-    "eslint-plugin-tsdoc": "^0.2.17"
+  "type": "module",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7"
   }
 }
