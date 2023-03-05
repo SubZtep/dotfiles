@@ -14,11 +14,9 @@
   "scripts": {
     "dry": "pnpm publish --dry-run --no-git-checks"
   },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0"
-  },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "@typescript-eslint/parser": ">=5",
     "eslint": ">=7",
     "typescript": ">=4"
   }
