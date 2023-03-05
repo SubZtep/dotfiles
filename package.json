@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-subztep",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "My ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/eslint-plugin-subztep",
@@ -14,7 +14,12 @@
   "scripts": {
     "dry": "pnpm publish --dry-run --no-git-checks"
   },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0"
+  },
   "peerDependencies": {
-    "eslint": ">=7"
+    "eslint": ">=7",
+    "typescript": ">=4"
   }
 }
