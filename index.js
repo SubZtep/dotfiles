@@ -39,7 +39,7 @@ module.exports = {
           },
         ],
         "@typescript-eslint/no-unused-vars": [
-          "warb",
+          "warn",
           {
             argsIgnorePattern: "^_",
           },
