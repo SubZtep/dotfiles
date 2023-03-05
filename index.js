@@ -1,7 +1,7 @@
 module.exports = {
   configs: {
     recommended: {
-      plugins: ["subztep"],
+      plugins: ["tsdoc", "subztep"],
       env: {
         browser: true,
         es6: true,
