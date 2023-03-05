@@ -1,13 +1,13 @@
 {
   "name": "eslint-plugin-subztep",
-  "version": "1.0.3",
-  "description": "ESLint preferred rules of choice",
+  "version": "1.0.4",
+  "description": "My ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/eslint-plugin-subztep",
   "license": "ISC",
   "keywords": [
     "eslint",
-    "eslint-config"
+    "eslintplugin"
   ],
   "main": "index.js",
   "exports": "./index.js",
