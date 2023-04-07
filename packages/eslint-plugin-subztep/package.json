@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-subztep",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "My ESLint preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/dotfiles",
@@ -9,8 +9,8 @@
     "eslint",
     "eslintplugin"
   ],
-  "main": "index.js",
-  "exports": "./index.js",
+  "main": "eslint-config.js",
+  "exports": "./eslint-config.js",
   "scripts": {
     "dry": "pnpm publish --dry-run --no-git-checks"
   },
