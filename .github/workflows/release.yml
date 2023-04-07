@@ -1,0 +1,22 @@
+name: Publish to NPM
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  NPM_TOKEN: "${{ secrets.NPM_TOKEN }}"
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm publish --workspace eslint-plugin-subztep
+
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm publish --workspace prettier-config-subztep

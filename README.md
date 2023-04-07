@@ -1,42 +1,47 @@
-# My ESLint defaults
+# dotfiles
 
-## Install
+Monorepo for my default configs.
 
-### Create required config files
+## Packages
 
-#### .eslintrc
+### ESLint
 
-```
-root: true
-extends:
-  - plugin:subztep/recommended
-```
+1. Install package:
 
-#### .editorconfig
+   ```sh
+   pnpm add -D eslint-plugin-subztep
+   ```
 
-```
-root = true
+2. Create `.eslintrc` file in your project root with the following content:
 
-[*]
-charset = utf-8
-end_of_line = lf
-max_line_length = 120
-insert_final_newline = true
-trim_trailing_whitespace = true
+   ```yaml
+   root: true
+   extends:
+     - plugin:subztep/recommended
+   ```
 
-[*.{js,ts}]
-indent_style = space
-indent_size = 2
+3. Install peer dependencies:
 
-[*.php]
-indent_style = space
-indent_size = 4
-```
+   ```sh
+   $ npx install-peerdeps --dev eslint-plugin-subztep
+   ```
 
-#### .prettierrc
+### Prettier
 
-```
-semi: false
-trailingComma: none
-arrowParens: avoid
-```
+1. Install package:
+
+   ```sh
+   pnpm add -D prettier-config-subztep
+   ```
+
+2. Create `.prettierrc` file in your project root with the following content:
+
+   ```yaml
+   "prettier-config-subztep"
+   ```
+
+3. Install peer dependencies:
+
+   ```sh
+   $ npx install-peerdeps --dev prettier-config-subztep
+   ```

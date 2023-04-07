@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "printWidth": 120,
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+  "insert_final_newline": true,
+  "trim_trailing_whitespace": true
+}
