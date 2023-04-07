@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-subztep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My Prettier preferred rules of choice",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "repository": "github:SubZtep/dotfiles",
