@@ -1,8 +1,0 @@
-{
-  "description": "My shared configs",
-  "license": "Unlicense",
-  "version": "1.0.0",
-  "workspaces": [
-    "packages/*"
-  ]
-}
